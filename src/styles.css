@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #63ffff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: block;
+  background-color: var(--primary-color);
+  text-align: center;
+  width: 70%;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
